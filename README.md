@@ -20,7 +20,7 @@ Demonstration of valid base configurations for:
 
 -   Prettier
 
-    -   config file: ``
+    -   config file: `.prettierrc.js`
     -   dependencies: prettier, eslint-config-prettier, eslint-plugin-prettier
 
 -   Editor Config
