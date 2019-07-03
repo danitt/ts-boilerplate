@@ -35,7 +35,9 @@ Demonstration of valid base configurations for:
 
 ## Usage
 
-    `$ yarn start`
-    `$ yarn build`
-    `$ yarn lint`
-    `$ yarn test`
+```
+    $ yarn start
+    $ yarn build
+    $ yarn lint
+    $ yarn test
+```
