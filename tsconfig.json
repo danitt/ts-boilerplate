@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "strict": true,
     "moduleResolution": "node",
     "baseUrl": "src",
     "sourceMap": true,
@@ -9,8 +10,6 @@
       "esnext"
     ],
     "outDir": "dist",
-    "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "allowSyntheticDefaultImports": true
   }
 }
