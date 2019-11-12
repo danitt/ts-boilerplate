@@ -17,22 +17,22 @@
     }
   },
   "dependencies": {
-    "@types/jest": "24.0.19",
-    "@types/node": "12.11.1",
-    "@typescript-eslint/eslint-plugin": "^2.4.0",
-    "@typescript-eslint/parser": "^2.4.0",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.4.0",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.7",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
     "import-sort": "^6.0.0",
     "import-sort-cli": "^6.0.0",
     "import-sort-parser-typescript": "^6.0.0",
     "import-sort-style-module-scoped": "^1.0.3",
-    "jest": "24.9.0",
-    "prettier": "^1.18.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
     "prettier-plugin-import-sort": "^0.0.3",
-    "ts-jest": "24.1.0",
-    "ts-node": "8.4.1",
-    "typescript": "3.6.4"
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2"
   }
 }
