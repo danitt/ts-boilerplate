@@ -54,3 +54,23 @@ Demonstration of valid base configurations for:
     $ yarn lint
     $ yarn test
 ```
+
+## IDE Configuration
+
+This project is optimised for development using Visual Studio Code, containing launch configurations and debugging utilities, defined in the .vscode directory.
+
+For best results, please ensure the following configuration steps are taken on your development machine:
+
+- Add VSC Extensions: Debugger for Chrome, DotENV, EditorConfig, ESLint
+
+- Remove the following global dependencies:
+
+  `$ yarn global remove eslint typescript`
+
+  `$ npm -g uninstall eslint typescript`
+
+- Set VSC to use workspace typescript version in command panel
+
+  `> TypeScript: Select TypeScript Version` (must have an open .ts file in focus)
+
+  `> > Use Workspace Version`
