@@ -68,9 +68,3 @@ For best results, please ensure the following configuration steps are taken on y
   `$ yarn global remove eslint typescript`
 
   `$ npm -g uninstall eslint typescript`
-
-- Set VSC to use workspace typescript version in command panel
-
-  `> TypeScript: Select TypeScript Version` (must have an open .ts file in focus)
-
-  `> > Use Workspace Version`
