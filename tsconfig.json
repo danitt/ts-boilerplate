@@ -4,12 +4,13 @@
     "moduleResolution": "node",
     "baseUrl": "src",
     "sourceMap": true,
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "esnext"
     ],
     "outDir": "dist",
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   }
 }
