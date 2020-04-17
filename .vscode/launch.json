@@ -1,6 +1,16 @@
 {
   "version": "0.2.0",
   "configurations": [
+		{
+		  "name": "Node Inspector",
+		  "type": "node",
+		  "request": "launch",
+		  "args": ["${workspaceRoot}/src/index.ts"],
+		  "runtimeArgs": ["-r", "ts-node/register"],
+		  "cwd": "${workspaceRoot}",
+		  "protocol": "inspector",
+		  "internalConsoleOptions": "neverOpen"
+		},
     {
       "type": "node",
       "request": "launch",
