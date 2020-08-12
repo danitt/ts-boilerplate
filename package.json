@@ -8,7 +8,7 @@
     "start": "ts-node src/index",
     "build": "tsc",
     "lint": "eslint src/**",
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "importSort": {
     ".ts, .tsx": {
@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@types/jest": "^25.2.1",
-    "@types/node": "^13.13.4",
+    "@types/node": "^14.0.27",
     "@typescript-eslint/eslint-plugin": "^2.30.0",
     "@typescript-eslint/parser": "^2.30.0",
     "eslint": "^6.8.0",
@@ -31,11 +31,11 @@
     "import-sort-cli": "^6.0.0",
     "import-sort-parser-typescript": "^6.0.0",
     "import-sort-style-module-scoped": "^1.0.3",
-    "jest": "^25.4.0",
+    "jest": "^26.3.0",
     "prettier": "^2.0.5",
     "prettier-plugin-import-sort": "^0.0.4",
-    "ts-jest": "^25.4.0",
-    "ts-node": "^8.9.1",
-    "typescript": "^3.8.3"
+    "ts-jest": "^26.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   }
 }
