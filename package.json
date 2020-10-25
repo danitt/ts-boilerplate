@@ -8,7 +8,8 @@
     "start": "ts-node src/index",
     "build": "tsc",
     "lint": "eslint src/**",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "importSort": {
     ".ts, .tsx": {
