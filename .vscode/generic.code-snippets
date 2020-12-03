@@ -1,0 +1,11 @@
+{
+    "console-debug-generic": {
+      "scope": "javascript,typescript,javascriptreact,typescriptreact",
+      "prefix": "console log debug",
+      "description": "Console debug message with 'REMOVEME' prefix",
+      "body": [
+        "console.debug(`REMOVEME: ${1}`${0});"
+      ]
+
+    }
+}

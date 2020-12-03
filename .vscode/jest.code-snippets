@@ -1,0 +1,28 @@
+{
+  "describe-jest": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "describe - jest",
+    "body": [
+      "describe('${1}', () => {",
+      "\t${0}",
+      "});"
+    ],
+    "description": "Jest Test Describe"
+  },
+  "it-jest": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "it - jest",
+    "body": [
+      "it('${1}', () => {",
+      "\t// ARRANGE",
+      "\t${0}",
+      "\t",
+      "\t// ACT",
+      "\t",
+      "\t// ASSERT",
+      "\t",
+      "});"
+    ],
+    "description": "Jest Test It Arrange Act Assert"
+  }
+}
