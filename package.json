@@ -8,6 +8,7 @@
     "start": "ts-node src/index",
     "build": "tsc",
     "lint": "eslint src/**",
+    "lint:tsc": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
