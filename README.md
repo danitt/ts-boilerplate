@@ -1,5 +1,13 @@
 # TS - Boilerplate
 
+> [!WARNING]
+> This boilerplate is currently outdated. The major tooling is mostly still relevant but the dependencies are several major versions behind, and the configurations have vastly changed since then. Contributions welcome to bring this up to speed, namely:
+> - Bumping all versions
+> - Updating ESLint to use the new flat-file config and type-aware linting
+> - Removing the import-sort tool in favour of 'eslint-plugin-import-x'
+> - Swapping Jest for Vitest
+> - Converting the TS config and package.json to be ESM-first
+
 Demonstration of valid base configurations for:
 
 -   TypeScript
@@ -61,7 +69,7 @@ This project is optimised for development using Visual Studio Code, containing l
 
 For best results, please ensure the following configuration steps are taken on your development machine:
 
-- Add VSC Extensions: Debugger for Chrome, DotENV, EditorConfig, ESLint
+- Add VSC Extensions: DotENV, EditorConfig, ESLint
 
 - Remove the following global dependencies:
 
