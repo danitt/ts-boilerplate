@@ -1,5 +1,7 @@
 # TS - Boilerplate
 
+![Build Status](https://github.com/danitt/ts-boilerplate/actions/workflows/master.yml/badge.svg)
+
 Demonstration of valid base configurations for:
 
 -   TypeScript
