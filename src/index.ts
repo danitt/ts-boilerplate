@@ -1,7 +1,4 @@
-import { sayHello } from './hello-world';
+import { sayHello } from './hello-world.js';
 
-// IIFE
-(async (): Promise<void> => {
-  console.info(sayHello());
-  process.exit();
-})();
+process.stdout.write(sayHello() + '\n');
+process.exit();

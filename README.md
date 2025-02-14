@@ -1,13 +1,5 @@
 # TS - Boilerplate
 
-> [!WARNING]
-> This boilerplate is currently outdated. The major tooling is mostly still relevant but the dependencies are several major versions behind, and the configurations have vastly changed since then. Contributions welcome to bring this up to speed, namely:
-> - Bumping all versions
-> - Updating ESLint to use the new flat-file config and type-aware linting
-> - Removing the import-sort tool in favour of 'eslint-plugin-import-x'
-> - Swapping Jest for Vitest
-> - Converting the TS config and package.json to be ESM-first
-
 Demonstration of valid base configurations for:
 
 -   TypeScript
@@ -15,36 +7,30 @@ Demonstration of valid base configurations for:
     Typescript language support
     -   config file: `tsconfig.json`
     -   dependencies: typescript
-    -   optional dependencies: @types/node, ts-node
+    -   optional dependencies: @types/node, tsx
 
--   Jest
+-   Vitest
 
-    Testing framework with typings
-    -   config file: `jest.config.js`
-    -   dependencies: jest, ts-jest, @types/jest
+    Testing framework
+    -   config file: `vitest.config.js`
+    -   dependencies: vitest, @vitest/coverage-v8
 
 -   ESLint
 
     Linting tool with TS support
-    -   config file: `.eslintrc.js`
-    -   dependencies: eslint, @typescript-eslint/parser, @typescript-eslint/eslint-plugin
+    -   config file: `eslint.config.mjs`
+    -   dependencies: @eslint/js, @types/eslint__js, eslint, eslint-import-resolver-typescript, eslint-plugin-import-x, eslint-plugin-unused-imports
 
 -   Prettier
 
     Formatting/linting with TS support
-    -   config file: `.prettierrc.js`
+    -   config file: `prettier.config.mjs`
     -   dependencies: prettier, eslint-config-prettier, eslint-plugin-prettier
 
 -   Editor Config
 
     Base formatting standards, detected by IDE, linters, formatters
     -   config file: `.editorconfig`
-
-- Import Sorting
-
-    Adds import sort formatting to linter + formatter
-    -   config file: `package.json` ("importSort")
-    -   dependencies: import-sort, import-sort-cli, import-sort-parser-typescript, import-sort-style-module-scoped, prettier-plugin-import-sort
 
 -   VSC Settings
 
@@ -57,10 +43,10 @@ Demonstration of valid base configurations for:
 ## Usage
 
 ```
-    $ yarn start
-    $ yarn build
-    $ yarn lint
-    $ yarn test
+    $ npm start
+    $ npm run build
+    $ npm run lint
+    $ npm run test
 ```
 
 ## IDE Configuration
@@ -73,6 +59,6 @@ For best results, please ensure the following configuration steps are taken on y
 
 - Remove the following global dependencies:
 
-  `$ yarn global remove eslint typescript`
+  `$ yarn global remove eslint prettier`
 
-  `$ npm -g uninstall eslint typescript`
+  `$ npm -g uninstall eslint prettier`

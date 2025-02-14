@@ -1,0 +1,6 @@
+# Generated / compiled files
+dist
+generated
+
+# `pulumi config set` will mess up Prettier's formatting
+.deploy/Pulumi.*.yaml

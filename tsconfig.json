@@ -1,19 +1,20 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "strict": true,
-    "module": "CommonJS",
-    "moduleResolution": "node",
-    "baseUrl": "src",
-    "sourceMap": true,
-    "target": "es6",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "outDir": "dist",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "lib": ["dom", "esnext"],
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "isolatedModules": true,
-    "resolveJsonModule": true
-  }
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true
+  },
 }

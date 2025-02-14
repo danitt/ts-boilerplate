@@ -1,4 +1,6 @@
-import { sayHello } from './hello-world';
+import { test, expect } from 'vitest';
+
+import { sayHello } from './hello-world.js';
 
 test('Hello default', (): void => {
   const result: string = sayHello();
