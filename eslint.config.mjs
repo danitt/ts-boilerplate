@@ -31,6 +31,7 @@ export default [
       '@typescript-eslint/explicit-member-accessibility': 0,
       '@typescript-eslint/no-floating-promises': ['error', { ignoreIIFE: true, ignoreVoid: false }],
       '@typescript-eslint/no-non-null-assertion': 'error',
+      '@typescript-eslint/no-unnecessary-condition': 'error',
       '@typescript-eslint/no-unused-vars': [
         'error',
         { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_', ignoreRestSiblings: true },
